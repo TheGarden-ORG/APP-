@@ -1,0 +1,6 @@
+{
+  "name": "ລະບົບນຳເຂົ້າຂໍ້ມູນເງິນເດືອນ The Garden",
+  "description": "ລະບົບຈັດການເຫດການເງິນເດືອນ, ກວດສອບຫຼັງບ້ານ, ເຊື່ອມຕໍ່ Google Sheets & Google Drive ແລະ ສົ່ງອອກ Excel/PDF ຕາມແມ່ແບບມາດຕະຖານຮອບ 26–25 ຂອງ The Garden.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

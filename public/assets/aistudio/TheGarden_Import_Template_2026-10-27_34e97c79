@@ -1,0 +1,24 @@
+,,
+,The Garden · Payroll import template,
+,ແບບຟອມນຳເຂົ້າຂໍ້ມູນເງິນເດືອນ,
+,,
+,How to use · ວິທີໃຊ້,
+,1,"Fill only the sheets you need. One row = one change. Leave the other sheets empty. · ຕື່ມສະເພາະແຜ່ນທີ່ຕ້ອງການ, 1 ແຖວ = 1 ລາຍການ."
+,2,"Employee ID: choose from the dropdown (the Staff sheet lists everyone). The green ""Name (auto)"" column shows the name so you can check it is the right person. · ເລືອກລະຫັດຈາກລາຍການ ແລ້ວກວດຊື່ໃນຖັນສີຂຽວ."
+,3,"Dates as dd/mm/yyyy (e.g. 28/09/2026). Times as HH:MM, 24-hour (e.g. 07:00, 15:45, 00:30). Money without commas is fine. · ວັນທີ dd/mm/yyyy, ເວລາ HH:MM."
+,4,"Grey italic rows starting with ""e.g."" are examples. They are never imported; you can leave or delete them. · ແຖວສີເທົາ ແມ່ນຕົວຢ່າງ ບໍ່ຖືກນຳເຂົ້າ."
+,5,"In the payroll tool: open the Import tab, choose the payroll month, drop this file, check the preview, then press Apply. Rows with a red error are skipped; fix them and upload again. · ໃນໂປຣແກຣມ: ແຖບ Import → ວາງໄຟລ໌ → ກວດ → Apply."
+,6,"Uploading the same file twice is safe: leave, shifts, swaps and advances that are already recorded are skipped. · ອັບໂຫຼດຊ້ຳໄດ້ ລາຍການທີ່ມີແລ້ວຈະຖືກຂ້າມ."
+,7,Rows for someone already ticked ✓ Checked in Payroll are refused. Untick them first. · ພະນັກງານທີ່ຕິກກວດແລ້ວ ຕ້ອງເອົາຕິກອອກກ່ອນ.
+,,
+,Sheets · ແຜ່ນງານ,
+,1 New staff · ພະນັກງານໃໝ່,"Type the Employee ID yourself: for a new person, use the ID set for them on the fingerprint scanner. To change someone already in the tool (salary raise, new shift, new bank account), type their ID and fill only the cells that change. · ພະນັກງານໃໝ່: ໃສ່ລະຫັດເອງ (ລະຫັດທີ່ຕັ້ງໄວ້ໃນເຄື່ອງສະແກນນິ້ວ). ປ່ຽນແປງຂໍ້ມູນ: ໃສ່ລະຫັດ ແລະ ຕື່ມສະເພາະຊ່ອງທີ່ປ່ຽນ."
+,2 Left · ພະນັກງານອອກ,Last working day becomes their end date. They are paid for this pay period as usual and are not added to later months. · ວັນເຮັດວຽກມື້ສຸດທ້າຍ ຈະເປັນວັນອອກ.
+,3 Leave · ລາພັກ,One row per leave request. The weekly day off inside the dates is not counted. Status blank = Approved. Approved leave is excused in payroll; unpaid leave is deducted. · ລາພັກ 1 ຄັ້ງ = 1 ແຖວ.
+,4 Extra shift · ກະເສີມ,"Double shift = worked an extra shift as well as their own: enter the EXTRA shift's times, plus its monthly salary or the position covered. Change shift = worked a different shift that day: enter the shift actually worked. · ເຮັດ 2 ກະ: ໃສ່ເວລາຂອງກະເສີມ."
+,5 Day-off work · ມາເຮັດມື້ພັກ,Swap = the day off worked replaces an absent day (write the absent date). OT x1.5 = paid as OT day off. · ແລກມື້: ໃສ່ວັນທີທີ່ຂາດ.
+,6 Advances · ເບີກລ່ວງໜ້າ,"New advances, cash repayments, interest or adjustments. Payroll month blank = worked out from the date (26th – 25th). Monthly deduction sets how much is taken from salary each month (blank = keep current; for a first advance = the whole amount). · ເບີກເງິນ / ຈ່າຍຄືນ."
+,7 Month inputs · ປ້ອນປະຈຳເດືອນ,Fills the same columns as the Payroll table. Blank cell = leave as it is. Type 0 to clear a number. Advance deduction here overrides the automatic deduction for this month only. · ຊ່ອງວ່າງ = ບໍ່ປ່ຽນ.
+,Staff,"Everyone in the tool when this template was made (reference only, not imported). New people from sheet 1 can be used in the other sheets of the same file. · ລາຍຊື່ພະນັກງານ (ອ້າງອີງ)."
+,,
+,Payroll month · ເດືອນເງິນເດືອນ,"Sheet 7 goes into the month typed in its cell C3. If C3 is blank it goes into the month selected in the Import tab. Leave, shifts, swaps and advances go to whatever month their dates fall in (pay period 26th – 25th)."
